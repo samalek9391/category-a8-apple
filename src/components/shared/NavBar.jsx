@@ -35,7 +35,7 @@ const NavBar = () => {
 
         {/* RIGHT: Auth Buttons */}
         <div>
-            {/* Auth related work is add here later */}
+            {/* Auth related work is add here later by better auth */}
         </div>
       </div>
     </nav>
