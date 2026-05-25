@@ -7,17 +7,12 @@ import NavBar from "@/components/shared/NavBar";
 export default function Home() {
   return (
     <div>
-      <header>
-        <NavBar />
-      </header>
-      <main>
+
         <Banner />
         <Marquee />
         <FeaturedTiles />
-      </main>
-      <footer>
-        <Footer/>
-      </footer>
+
+
     </div>
   );
 }
