@@ -1,10 +1,13 @@
+
+import { getTilesInfo } from '@/lib/data';
 import React from 'react';
 
-const FeaturedTiles = () => {
+const FeaturedTiles = async() => {
+
+    const tiles = await getTilesInfo();
+
     return (
-        <div>
-            <h2>Featured Tiles is load here</h2>
-        </div>
+        <div>All Tiles is loading here</div>
     );
 };
 
