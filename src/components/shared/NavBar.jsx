@@ -14,7 +14,7 @@ const NavBar = () => {
             href="/"
             className="text-2xl font-bold text-blue-600"
           >
-            Tile Gallery
+            Tiles Gallery
           </Link>
         </div>
 
