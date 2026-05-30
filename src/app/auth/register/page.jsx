@@ -12,13 +12,16 @@ const RegisterPage = () => {
             <label className="label text-black font-semibold ">Your Name</label>
             <input type="text" className="input" placeholder="Your Name" />
 
+            <label className="label text-black font-semibold ">Your Photo</label>
+            <input type="text" className="input" placeholder="Your Photo URL" />
+
             <label className="label text-black font-semibold ">Email</label>
             <input type="email" className="input" placeholder="Email" />
 
             <label className="label text-black font-semibold">Password</label>
             <input type="password" className="input" placeholder="Password" />
 
-            <button className="btn bg-blue-600 text-white mt-4 ">Login</button>
+            <button className="btn bg-blue-600 text-white mt-4 ">Register</button>
           </fieldset>
         </form>
       </div>
