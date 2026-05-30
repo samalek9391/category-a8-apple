@@ -34,8 +34,9 @@ const NavBar = () => {
         </div>
 
         {/* RIGHT: Auth Buttons */}
-        <div>
-            <button className="btn bg-blue-600 text-white rounded-lg"><Link href="/auth/login">Login</Link></button>
+        <div className="flex gap-4">
+            <button className="btn bg-blue-600 text-white rounded-lg "><Link href="/auth/login">Login</Link></button>
+            <button className="btn bg-white text-blue-600 border-blue-600 rounded-lg"><Link href="/auth/register">Register</Link></button>
         </div>
       </div>
     </nav>
