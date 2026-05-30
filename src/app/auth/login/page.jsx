@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const LoginPage = () => {
@@ -15,8 +16,10 @@ const LoginPage = () => {
             <label className="label text-black font-semibold">Password</label>
             <input type="password" className="input" placeholder="Password" />
 
-            <button className="btn bg-blue-600 text-white mt-4 ">Login</button>
+            <button className="btn bg-blue-600 text-white mt-4 mb-4">Login</button>
+            <h2 className="font-semibold">New to Tiles Gallery, Please <span className="text-blue-600"><Link href="/auth/register">Login</Link></span></h2>
           </fieldset>
+
         </form>
       </div>
     </div>

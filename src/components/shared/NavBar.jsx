@@ -35,7 +35,7 @@ const NavBar = () => {
 
         {/* RIGHT: Auth Buttons */}
         <div>
-            {/* Auth related work is add here later by better auth */}
+            <button className="btn bg-blue-600 text-white rounded-lg"><Link href="/auth/login">Login</Link></button>
         </div>
       </div>
     </nav>
